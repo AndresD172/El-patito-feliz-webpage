@@ -124,6 +124,8 @@ a {
 
 #about-us .front-image-properties {
   width: 100vw;
+  height: 50vh;
+  object-fit: cover;
 }
 
 #about-us .content {
