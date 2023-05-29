@@ -13,6 +13,8 @@ a {
   text-decoration: none;
 }
 
+/* Estilos globales */
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -149,6 +151,8 @@ a {
   transform: rotateZ(-45deg) translate(1px, -6px);
 }
 
+/* Estilos del contenido de la página */
+
 main {
   display: grid;
   grid-template-areas:
@@ -209,6 +213,8 @@ main .button {
   height: 40%;
 }
 
+/* Estilos del footer */
+
 footer {
   height: auto;
   display: flex;
@@ -260,6 +266,9 @@ footer .yt-logo {
   padding-bottom: 5px;
 }
 
+/* Media query para resposividad 
+(ancho de pantalla > 480px)  */
+
 @media only screen and (min-width: 480px) {
   #mobile-navbar {
     display: none;
@@ -272,6 +281,8 @@ footer .yt-logo {
     z-index: 1;
   }
 
+  /* Cambia la distribución de los elementos
+  dependiendo del ancho de la pantalla. */
   main {
     display: grid;
     grid-template-areas:

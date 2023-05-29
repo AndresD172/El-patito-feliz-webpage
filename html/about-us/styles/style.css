@@ -94,26 +94,28 @@ a {
   display: none;
 }
 
-.navbar-burger > span {
+.navbar-burger>span {
   width: 20px;
   color: white;
 }
 
-#menu:checked ~ .dropdown-content {
+#menu:checked~.dropdown-content {
   display: flex;
 }
 
-#menu:checked ~ .navbar-burger > #middle-span {
+#menu:checked~.navbar-burger>#middle-span {
   display: none;
 }
 
-#menu:checked ~ .navbar-burger > #top-span {
+#menu:checked~.navbar-burger>#top-span {
   transform: rotateZ(45deg) translate(1px, 6px);
 }
 
-#menu:checked ~ .navbar-burger > #bottom-span {
+#menu:checked~.navbar-burger>#bottom-span {
   transform: rotateZ(-45deg) translate(1px, -6px);
 }
+
+/* Estilo del contenido de la página */
 
 #about-us {
   display: flex;
@@ -155,6 +157,8 @@ a {
   margin-top: 0px;
   margin-bottom: 1em;
 }
+
+/* Estilo del footer */
 
 footer {
   height: auto;
@@ -206,6 +210,9 @@ footer .yt-logo {
   width: 2em;
   padding-bottom: 5px;
 }
+
+/* Media query para resposividad 
+(ancho de pantalla > 480px)  */
 
 @media only screen and (min-width: 480px) {
   #mobile-navbar {
