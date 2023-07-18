@@ -9,6 +9,10 @@ body {
   margin: 0px;
 }
 
+main {
+  min-height: calc(100vh - 150.6333px);
+}
+
 a {
   text-decoration: none;
 }

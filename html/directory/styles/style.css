@@ -157,11 +157,14 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 90%;
   margin: 10px;
+  transition: transform 0.1s ease-in-out;
 }
 
 #places-directory .card:hover {
-  filter: drop-shadow(0px 4px 8px rgb(255, 156, 85));
+  filter: drop-shadow(0px 0px 20px rgb(255, 156, 85));
+  transform: scale(1.025);
 }
 
 #places-directory .card-title {
@@ -269,4 +272,14 @@ footer .yt-logo {
     top: 0;
     z-index: 1;
   }
+
+  #places-directory .outer-container {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #places-directory .card {
+    width: 15%;
+  }
+
 }
